@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+body{
+  background: silver;
+}
+
+.resumetable {
+  display: grid;
+  gap: 4px;
+  padding: 20px;
+  width: 750px;
+  height: auto;
+  margin: auto;
+  background-color: black;
+}
+
+.profilebox, .infobox, .djobbox {
+  background-color: white;
+  padding: 10px;
+  font-size: 30px;
+  border: double;
+}
+
+.profilebox {
+  text-align: center;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.namefont {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Courier New;
+  text-align: center;
+}
+
+table {
+  font-size: 15px;
+}
+.f1 {
+  font-family: Courier New;
+  font-weight: bold;
+}
+td {
+  font-weight: bold;
+}
+
+.infofont, .djobfont{
+  font-size: 22px;
+  font-weight: bold;
+  font-family: Courier New;
+}
+
+.djobAns {
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+  font-size: 22px;
+}
+</style>
+</head>
+<body>
+
+<div class="resumetable">
+  <div class="profilebox">
+    <img src="GridResume.jpg" alt="My Picture">
+    <p class="namefont">SABUQUEL, BRYAN KENNETH</p>
+  </div>
+  
+  <div class="infobox">
+    <p class="infofont">Personal Information</p>
+    <table>
+      <tr>
+        <td class="f1">Age:</td>
+        <td>22</td>
+      </tr>
+      <tr>
+       <td class="f1">Sex:</td>
+        <td>Male</td>
+     </tr>
+      <tr>
+       <td class="f1">Civil Status:</td>
+       <td>Single</td>
+      </tr>
+      <tr>
+       <td class="f1">Religion:</td>
+        <td>Pentecost</td>
+      </tr>
+      <tr>
+       <td class="f1">Citizenship:</td>
+       <td>Filipino</td>
+     </tr>
+     <tr>
+        <td class="f1">Date of Birth:</td>        
+        <td>January 22, 2002</td>
+      </tr>
+      <tr>
+       <td class="f1">Place of Birth:</td>
+       <td>Lidlidda, Ilocos Sur</td>
+     </tr>
+   </table>
+  </div>
+  
+  <div class="djobbox">
+    <p class="djobfont">Dream Job</p>
+    <p class="djobAns">Game Developer</p> 
+</div>
+</body>
+</html>
